@@ -49,7 +49,8 @@ How can consumer shopping data be leveraged to identify revenue drivers, improve
 
 ### Executive KPI Overview
 
-<img width="2687" height="1480" alt="dashboard_overview" src="https://github.com/user-attachments/assets/4c518335-42ff-49f2-a63e-55d368ca40d6" />
+<img width="2666" height="1438" alt="dashboard_overview" src="https://github.com/user-attachments/assets/a2056a24-d853-489c-b53f-0e4fe921fa84" />
+
 
 Key dashboard components:
 - Total customers and average purchase KPIs
