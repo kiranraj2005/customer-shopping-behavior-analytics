@@ -1,153 +1,53 @@
-Customer Shopping Behavior Analytics
-Overview
+# Customer Shopping Behavior Analytics
 
-This project analyzes retail customer transaction data to uncover spending patterns, customer segments, revenue drivers, and subscription impact.
+![Python](https://img.shields.io/badge/Python-Data%20Analysis-blue)
+![SQL](https://img.shields.io/badge/SQL-PostgreSQL%20%7C%20MySQL%20%7C%20SQL%20Server-green)
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 
-The objective is to transform raw transactional data into structured insights that support data-driven business decisions in marketing, customer engagement, and product strategy.
+End-to-end retail analytics project transforming 3,900 transaction records into actionable business insights using Python, SQL, and Power BI.
 
-The project follows an end-to-end analytics workflow:
+---
 
-Data preparation in Python
+## Business Objective
 
-Exploratory Data Analysis (EDA)
+How can consumer shopping data be leveraged to identify revenue drivers, improve customer engagement, and optimize marketing strategy?
 
-SQL-based business analysis
+---
 
-Interactive dashboard development in Power BI
+## Tech Stack
 
-Executive report and presentation
+**Data Processing**
+- Python (pandas, numpy)
+- Data cleaning & feature engineering
 
-Dataset
+**Database Analysis**
+- PostgreSQL / MySQL / SQL Server
+- Structured SQL business queries
 
-The dataset contains transactional records of 3,900 purchases with 18 features, including:
+**Visualization**
+- Power BI interactive dashboard
 
-Customer demographics (Age, Gender, Location, Subscription Status)
+**Reporting**
+- Analytical report
+- Executive presentation (Gamma)
 
-Purchase details (Item, Category, Season, Purchase Amount)
+---
 
-Behavioral indicators (Discount usage, Frequency, Shipping type, Review rating)
+## Key Insights
 
-Key preprocessing steps included:
+- Identified high-revenue customer segments
+- Quantified subscription impact on total revenue
+- Detected high-value discount users
+- Segmented customers into New, Returning, Loyal
+- Highlighted top-performing product categories
 
-Handling missing values in review ratings
+---
 
-Standardizing column names
+## Dashboard Preview
 
-Creating engineered features (age groups, purchase frequency)
+<img width="2687" height="1480" alt="dashboard_overview" src="https://github.com/user-attachments/assets/4c518335-42ff-49f2-a63e-55d368ca40d6" />
 
-Validating data consistency
 
-Tools & Technologies
 
-Programming & Data Processing
 
-Python (pandas, numpy, matplotlib/seaborn)
-
-Database & Querying
-
-PostgreSQL / MySQL / SQL Server
-
-Structured business queries for segmentation and revenue analysis
-
-Visualization
-
-Power BI for interactive dashboarding
-
-Reporting
-
-Written analytical report summarizing insights
-
-Presentation deck created using Gamma
-
-Project Workflow
-1. Data Loading & Preparation (Python)
-
-Imported dataset using pandas
-
-Checked data types and summary statistics
-
-Cleaned missing values
-
-Standardized column naming
-
-Engineered new analytical features
-
-2. Exploratory Data Analysis (EDA)
-
-Revenue analysis by gender and age group
-
-Purchase distribution across categories
-
-Subscription vs non-subscription comparison
-
-Discount usage behavior
-
-Customer segmentation (New, Returning, Loyal)
-
-3. SQL Business Analysis
-
-Data was loaded into a relational database and analyzed using SQL:
-
-Revenue contribution by demographic segments
-
-High-spending discount users
-
-Top-rated and most purchased products
-
-Subscription impact on repeat purchases
-
-Shipping type influence on spending
-
-4. Dashboard Development (Power BI)
-
-An interactive dashboard was built to visualize:
-
-Revenue by category
-
-Revenue by age group
-
-Subscription breakdown
-
-Sales distribution
-
-Average purchase metrics
-
-The dashboard enables quick executive-level insight into customer behavior patterns.
-
-Dashboard
-
-The Power BI dashboard provides:
-
-KPI cards (Total Customers, Avg Purchase Amount, Avg Rating)
-
-Revenue segmentation visuals
-
-Customer distribution by age group
-
-Subscription comparison analysis
-
-Category-wise performance overview
-
-The dashboard is designed for business stakeholders to explore trends interactively.
-
-Key Results
-
-Identified revenue-driving customer segments
-
-Quantified subscription impact on overall revenue
-
-Detected high-value discount users
-
-Highlighted top-performing product categories
-
-Segmented customers into actionable groups
-
-These insights support marketing optimization, customer retention strategy, and product positioning.
-
-Report & Presentation
-
-The project includes:
-
-A structured analytical report summarizing methodology and findings
-
-A presentation deck created using Gamma to communicate insights clearly to stakeholders
